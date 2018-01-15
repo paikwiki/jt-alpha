@@ -1,0 +1,8 @@
+<div class="navigation">
+  <h2>{{ site.data.navigation.navigation_title }}</h2>
+  <ul>
+      {% for item in site.data.navigation.navitems %}
+        <li><a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a></li>
+      {% endfor %}
+  </ul>
+</div>
