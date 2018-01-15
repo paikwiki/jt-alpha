@@ -2,10 +2,10 @@ navigation_title: Navigation
 navitems:
 
 - title : works
-  url: /works
+  url: works
 
 - title : text
-  url: /text
+  url: text
 
 - title : about
-  url: /about
+  url: about
