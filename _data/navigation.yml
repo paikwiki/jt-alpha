@@ -1,11 +1,8 @@
 navigation_title: Navigation
-navitems:
-
+items:
 - title : works
-  url: works
-
+  url: /
 - title : text
-  url: text
-
+  url: /text
 - title : about
-  url: about
+  url: /about
