@@ -1,8 +1,8 @@
 navigation_title: Navigation
 items:
-- title : works
+- title : Works
   url: /
-- title : text
-  url: /text
-- title : about
+- title : Texts
+  url: /texts
+- title : About
   url: /about
