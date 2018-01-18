@@ -5,7 +5,10 @@ permalink: /
 ---
 
 <ul id="post-list">
-  {% assign sorted_posts = site.posts | sort:"order" | reverse %}
+  {% assign sorted_posts = site.posts 
+    | where:"layout","work"
+    | sort:"order"
+    | reverse %}
   {% for post in sorted_posts %}
     <li>
       <a href="{{ post.url | prepend:site.baseurl }}">
