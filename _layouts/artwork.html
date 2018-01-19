@@ -5,7 +5,7 @@ layout: default
 <h2>Single work</h2>
 
 {% if page.image %}
-  <img src="{{ page.image }}" alt="">
+  <img src="{{ page.image | prepend:site.baseurl }}" alt="{{ page.title }}">
 {% endif %}
 {% if page.caption %}
   <p>{{ page.caption}}</p>

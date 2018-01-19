@@ -7,10 +7,21 @@
   <title>{{ site.title }}</title>
 </head>
 <body>
-  <h1><a href="{{ '/' | prepend:site.baseurl }}">JT ALPHA</a></h1>
-  <p>{{ site.description }}</p>
-  {% include navigation.html %}
-  <h2>{{page.title}}</h1>
-  {{ content }}
+  <header>
+    <h1><a href="{{ '/' | prepend:site.baseurl }}">{{ site.title }}</a></h1>
+    <p>{{ site.description }}</p>
+    {% include navigation.html %}
+  </header>
+  <article class="content">
+    <h2>{{page.title}}</h1>
+    {{ content }}
+  </article>
+  <footer>
+    <p class="copyright">
+      copyright&copy;2018 By
+      <a href="http://paikwiki.github.io">Paikwiki</a>.
+      All rights eserved
+    </p>
+  </footer>
 </body>
 </html>
