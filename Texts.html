@@ -6,7 +6,7 @@ permalink: /texts
 
 <ul id="post-list">
   {% assign sorted_posts = site.posts 
-    | where:"layout","text"
+    | where:"categories","text"
     | sort:"order"
     | reverse %}
   {% for post in sorted_posts %}

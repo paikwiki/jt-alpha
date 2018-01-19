@@ -1,5 +1,6 @@
 ---
 layout:  work
+categories: portfolio
 author:  paikwiki
 title:  나의 다섯 번째 드로잉
 caption:  나의 다섯 번째 드로잉_종이에 연필_20×20㎝_2018
