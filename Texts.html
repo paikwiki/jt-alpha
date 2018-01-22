@@ -13,7 +13,7 @@ permalink: /texts
     <li>
       <a href="{{ post.url | prepend:site.baseurl }}">
         {{post.title}}
-      </a>
+      </a><span>{{ post.date | date_to_string }}</span>
     </li>
   {% endfor %}
 </ul>
