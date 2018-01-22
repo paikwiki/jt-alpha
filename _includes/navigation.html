@@ -1,8 +1,12 @@
-<div class="navigation">
-  <h2>{{ site.data.navigation.navigation_title }}</h2>
-  <ul>
-      {% for item in site.data.navigation.items %}
-        <li><a href="{{ item.url | prepend:site.baseurl }}" alt="{{ item.title }}">{{ item.title }}</a></li>
-      {% endfor %}
-  </ul>
-</div>
+<section class="navigation">
+  <header>
+    <h1>{{ site.data.navigation.navigation_title }}</h1>
+  </header>
+  <nav>
+    <ul>
+        {% for item in site.data.navigation.items %}
+          <li><a href="{{ item.url | prepend:site.baseurl }}" alt="{{ item.title }}">{{ item.title }}</a></li>
+        {% endfor %}
+    </ul>
+  </nav>
+</section>

@@ -4,17 +4,23 @@ title: Texts
 permalink: /texts
 ---
 
-<h2>{{page.title}}</h1>
-<ul id="post-list">
-  {% assign sorted_posts = site.posts 
-    | where:"categories","text"
-    | sort:"order"
-    | reverse %}
-  {% for post in sorted_posts %}
-    <li>
-      <a href="{{ post.url | prepend:site.baseurl }}">
-        {{post.title}}
-      </a><span>{{ post.date | date_to_string }}</span>
-    </li>
-  {% endfor %}
-</ul>
+<article class="posts-wrapper">
+  <header>
+    <h1>{{page.title}}</h1>
+  </header>
+  <section>
+    <ul id="posts-list">
+      {% assign sorted_posts = site.posts 
+        | where:"categories","text"
+        | sort:"order"
+        | reverse %}
+      {% for post in sorted_posts %}
+        <li>
+          <a href="{{ post.url | prepend:site.baseurl }}">
+            <span>{{post.title}}</span>
+          </a><span>{{ post.date | date_to_string }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+</article>
