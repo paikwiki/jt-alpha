@@ -15,10 +15,9 @@
       <p>{{ site.description }}</p>
       {% include navigation.html %}
     </header>
-    <article class="content">
-      <h2>{{page.title}}</h1>
+    <section class="content">
       {{ content }}
-    </article>
+    </section>
     <footer>
       <p class="copyright">
         &copy; <a href="mailto://{{ site.data.author.email }}">{{ site.data.author.name }}</a>, {{ site.data.author.copyright_year }}. 
