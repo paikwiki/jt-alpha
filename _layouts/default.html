@@ -9,21 +9,21 @@
   <link rel="stylesheet" type="text/css" href="{{ '/css/styles.css' | prepend:site.baseurl }}">
 </head>
 <body>
-  <header>
-    <h1><a href="{{ '/' | prepend:site.baseurl }}">{{ site.title }}</a></h1>
-    <p>{{ site.description }}</p>
-    {% include navigation.html %}
-  </header>
-  <article class="content">
-    <h2>{{page.title}}</h1>
-    {{ content }}
-  </article>
-  <footer>
-    <p class="copyright">
-      copyright&copy;2018 By
-      <a href="http://paikwiki.github.io">Paikwiki</a>.
-      All rights eserved
-    </p>
-  </footer>
+  <div class="global-wrapper">
+    <header>
+      <h1><a href="{{ '/' | prepend:site.baseurl }}">{{ site.title }}</a></h1>
+      <p>{{ site.description }}</p>
+      {% include navigation.html %}
+    </header>
+    <article class="content">
+      <h2>{{page.title}}</h1>
+      {{ content }}
+    </article>
+    <footer>
+      <p class="copyright">
+        &copy; <a href="mailto://{{ site.data.author.email }}">{{ site.data.author.name }}</a>, {{ site.data.author.copyright_year }}. 
+      </p>
+    </footer>
+  </div>
 </body>
 </html>
