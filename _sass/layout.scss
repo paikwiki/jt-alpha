@@ -3,12 +3,27 @@
   .site-header {
     background-color: palegoldenrod;
     overflow: auto;
+    h1 {
+      display: inline-block;
+      margin: 0;
+      margin-right: 0.5rem;
+      font-size: 1.6rem;
+    }
+    .tagline {
+      display: inline-block;
+      margin: 0;
+      font-size: 0.8rem;
+      color: dimgray;
+    }
+    .tagline:before {
+      content: '— ';
+    }
     .navigation {
       ul {
         padding-left: 0;
         li {
           float: left;
-          margin-right: 2em;
+          margin-right: 2rem;
           list-style: none;
         }
       }
@@ -18,7 +33,7 @@
     background-color: papayawhip;
     header {
       h1 {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
       }
     }
   }
