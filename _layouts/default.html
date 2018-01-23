@@ -10,15 +10,15 @@
 </head>
 <body>
   <article class="global-wrapper">
-    <header>
+    <header class="site-header">
       <h1><a href="{{ '/' | prepend:site.baseurl }}">{{ site.title }}</a></h1>
       <p>{{ site.description }}</p>
       {% include navigation.html %}
     </header>
-    <section class="content">
+    <section class="site-content">
       {{ content }}
     </section>
-    <footer>
+    <footer class="site-footer">
       <p class="copyright">
         &copy; <a href="mailto://{{ site.data.author.email }}">{{ site.data.author.name }}</a>, {{ site.data.author.copyright_year }}. 
       </p>
