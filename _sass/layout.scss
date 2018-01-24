@@ -2,7 +2,6 @@
   padding: 1rem 2rem;
   .site-header {
     padding: 0.5rem;
-    background-color: palegoldenrod;
     overflow: auto;
     h1 {
       display: inline-block;
@@ -33,11 +32,9 @@
     }
   }
   .site-content {
-    background-color: papayawhip;
     header {
       padding: 0.5rem;
       h1 {
-        // margin-bottom: 0rem;
         font-size: 1.4rem;
       }
     }
@@ -46,7 +43,6 @@
         display: flex;
         flex-wrap: wrap;
         margin: 0;
-        // -webkit-margin-before: 0;
         padding-left: 0;
         li {
           padding: 0.5rem;
@@ -76,7 +72,6 @@
   }
   .site-footer {
     padding: 0.5em;
-    background-color: lavender;
     p {
       text-align: center;
     }
