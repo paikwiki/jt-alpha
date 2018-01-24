@@ -22,6 +22,7 @@
       ul {
         display: flex;
         flex-wrap: wrap;
+        margin: 1rem 0 0 0;
         padding-left: 0;
         li {
           padding: 0.5rem;
@@ -32,9 +33,10 @@
     }
   }
   .site-content {
+    padding: 0 1.5rem;
     header {
-      padding: 0.5rem;
       h1 {
+        margin: 0.5rem 0;
         font-size: 1.4rem;
       }
     }
@@ -42,16 +44,17 @@
       .artworks-list {
         display: flex;
         flex-wrap: wrap;
+        flex-flow: row wrap;
+        justify-content: space-between;
         margin: 0;
         padding-left: 0;
         li {
-          padding: 0.5rem;
-          width: 20%;
+          padding: 1rem 0;
+          width: 18%;
           list-style: none;
           box-sizing: border-box;
           figure {
             margin: 0;
-            padding: 0 1rem 1rem 1rem;
             >a {
               display: flex;
               overflow: hidden;
