@@ -1,6 +1,7 @@
 .global-wrapper {
   padding: 1rem 2rem;
   .site-header {
+    padding: 0.5rem;
     background-color: palegoldenrod;
     overflow: auto;
     h1 {
@@ -20,10 +21,12 @@
     }
     .navigation {
       ul {
+        display: flex;
+        flex-wrap: wrap;
         padding-left: 0;
         li {
-          float: left;
-          margin-right: 2rem;
+          padding: 0.5rem;
+          padding-top: 0; 
           list-style: none;
         }
       }
@@ -32,6 +35,7 @@
   .site-content {
     background-color: papayawhip;
     header {
+      padding: 0.5rem;
       h1 {
         font-size: 1.4rem;
       }
