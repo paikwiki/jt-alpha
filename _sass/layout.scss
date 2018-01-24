@@ -56,10 +56,18 @@
           figure {
             margin: 0;
             padding: 0 1rem 1rem 1rem;
-            // width: 100%;
-            // box-sizing: border-box;
-            img {
-              width: 100%;
+            >a {
+              display: flex;
+              overflow: hidden;
+              justify-content: center;
+              align-items: center;
+              height: 120px;
+              img {
+                // height: 100%;
+              }
+            }
+            figcaption {
+              margin: 0.5rem 0;
             }
           }
         }
