@@ -37,7 +37,32 @@
     header {
       padding: 0.5rem;
       h1 {
+        // margin-bottom: 0rem;
         font-size: 1.4rem;
+      }
+    }
+    .posts-content {
+      .artworks-list {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        // -webkit-margin-before: 0;
+        padding-left: 0;
+        li {
+          padding: 0.5rem;
+          width: 20%;
+          list-style: none;
+          box-sizing: border-box;
+          figure {
+            margin: 0;
+            padding: 0 1rem 1rem 1rem;
+            // width: 100%;
+            // box-sizing: border-box;
+            img {
+              width: 100%;
+            }
+          }
+        }
       }
     }
   }
