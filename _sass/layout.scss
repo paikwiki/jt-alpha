@@ -75,6 +75,10 @@
     }
   }
   .site-footer {
+    padding: 0.5em;
     background-color: lavender;
+    p {
+      text-align: center;
+    }
   }
 }
