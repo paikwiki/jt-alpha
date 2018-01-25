@@ -45,11 +45,11 @@
         display: flex;
         flex-wrap: wrap;
         flex-flow: row wrap;
-        justify-content: space-between;
         margin: 0;
         padding-left: 0;
         li {
           padding: 1rem 0;
+          margin-right: 2%;
           width: 18%;
           list-style: none;
           box-sizing: border-box;
