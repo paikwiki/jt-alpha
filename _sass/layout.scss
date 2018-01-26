@@ -64,7 +64,23 @@
             }
             figcaption {
               margin: 0.5rem 0;
+              text-align: center;
+              a {
+                font-size: 0.8rem;
+              }
             }
+          }
+        }
+      }
+      .texts-list {
+        list-style: none;
+        padding-left: 1rem;
+        li {
+          line-height: 1.7rem;
+          .post-date {
+            margin-right: 0.3rem;
+            font-size: 0.9rem;
+            color: dimgray;
           }
         }
       }
