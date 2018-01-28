@@ -17,5 +17,5 @@ I draw a cat and a dog.
 
 ## Group Exhibitions
 
-- <Test Exhibiton>, HelloWorld, 2017
-- <Test Exhibiton>, HelloWorld, 2017
+- Test Exhibiton, HelloWorld, 2017
+- Test Exhibiton, HelloWorld, 2017
