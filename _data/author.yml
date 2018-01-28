@@ -1,3 +1,15 @@
 name: Paikwiki
 email: paikwiki@gmail.com
 copyright_year: 2018
+
+exhibitions:
+  -
+    title: Solo Exhibitions
+    list:
+      - 〈Test Solo Exhibition〉, HelloWorld, 2017
+      - 〈Test Solo Exhibition2〉, HelloWorld, 2017
+  -
+    title: Group Exhibitions
+    list:
+      - 〈Test Group Exhibition〉, HelloWorld, 2017
+      - 〈Test Group2 Exhibition〉, HelloWorld, 2017

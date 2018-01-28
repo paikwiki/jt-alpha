@@ -10,12 +10,14 @@ I draw a cat and a dog.
 
 # Exhibitions
 
-## Solo Exhibitions
+{% for exgroup in site.data.author.exhibitions %}
 
-- Test Exhibiton, HelloWorld, 2017
-- Test Exhibiton, HelloWorld, 2017
+## {{ exgroup.title }}
 
-## Group Exhibitions
+{% for exitem in exgroup.list %}
 
-- Test Exhibiton, HelloWorld, 2017
-- Test Exhibiton, HelloWorld, 2017
+- {{ exitem }}
+
+{% endfor %}
+
+{% endfor %}
