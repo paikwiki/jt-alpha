@@ -4,7 +4,7 @@ title: About
 permalink: /about
 ---
 
-I draw a cat and a dog.
+{{ site.data.author.description }}
 
 - email: {{ site.data.author.email }}
 

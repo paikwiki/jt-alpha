@@ -1,5 +1,6 @@
 name: Paikwiki
 email: paikwiki@gmail.com
+description: I draw a cat and a dog.
 copyright_year: 2018
 
 exhibitions:
@@ -13,3 +14,6 @@ exhibitions:
     list:
       - 〈Test Group Exhibition〉, HelloWorld, 2017
       - 〈Test Group2 Exhibition〉, HelloWorld, 2017
+      - 〈Test Group2 Exhibition〉, HelloWorld, 2017
+      - 〈Test Group4 Exhibition〉, HelloWorld, 2017
+      - 〈Test Group5 Exhibition〉, HelloWorld, 2017
