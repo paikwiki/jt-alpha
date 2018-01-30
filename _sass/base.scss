@@ -1,5 +1,5 @@
 html {
-  font-size: 12pt;
+  font-size: 10pt;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -11,6 +11,18 @@ p, span, pre, a, blockquote {
 div, section, article, p,
 h1, h2, h3, h4, h5, h6, li {
   box-sizing: border-box;
+}
+
+h1 {
+  margin-bottom: 1.4em;
+}
+
+h2 {
+  margin-bottom: 1.2em;
+}
+
+h2:before {
+  content: "-";
 }
 
 a {
