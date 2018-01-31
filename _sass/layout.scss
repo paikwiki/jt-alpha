@@ -1,5 +1,7 @@
 .global-wrapper {
+  margin: 0 auto;
   padding: 1rem 2rem;
+  max-width: 980px;
   .site-header {
     padding: 0.5rem 0;
     overflow: auto;
@@ -105,6 +107,7 @@
     position: fixed;
     padding: 0.2em;
     bottom: 0;
+    left: 0;
     width: 100%;
     background-color: white;
     p {
