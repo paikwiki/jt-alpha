@@ -103,6 +103,18 @@
       }
     }
     .post-wrapper {
+      .artwork-content {
+        margin-bottom: 4rem;
+        .artwork-image {
+          img {
+            display: block;
+            margin: 0 auto;
+          }
+          p {
+            text-align: center;
+          }
+        }
+      }
       aside {
         p {
           text-align: center;
