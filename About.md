@@ -6,7 +6,7 @@ permalink: /about
 
 {{ site.data.author.description }}
 
-- email: {{ site.data.author.email }}
+- {{ site.data.author.email }}
 
 # Exhibitions
 

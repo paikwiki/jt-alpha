@@ -104,7 +104,10 @@
         list-style: none;
         padding-left: 0;
         li {
-          line-height: 1.2rem;
+          p {
+            margin: 0;
+            line-height: 1.4rem;
+          }
         }
       }
     }
