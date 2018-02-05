@@ -6,7 +6,7 @@ permalink: /about
 
 {{ site.data.author.description }}
 
-- {{ site.data.author.email }}
+- <a href="mailto://{{ site.data.author.email }}">{{ site.data.author.email }}</a>
 
 # Exhibitions
 
