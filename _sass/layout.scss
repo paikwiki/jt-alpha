@@ -62,11 +62,19 @@
             display: block;
             overflow: hidden;
             .thumb-image {
+              display: block;
+              margin: 0 auto;
+              width: 80%;
               height: 120px;
               background-size: contain;
               background-repeat: no-repeat;
               background-position: top center;
               text-indent: -9999px;
+            }
+            @media all and (max-width: 640px){
+              .thumb-image {
+                height: 80px;
+              }
             }
           }
           .caption {
