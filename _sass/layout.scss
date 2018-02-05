@@ -132,6 +132,25 @@
           }
         }
       }
+      .text-content {
+        columns: 3;
+        column-gap: 2rem;
+        column-rule: 1px dotted darkgray;
+        p:nth-child(1) {
+          margin-top: 0;
+        }
+      }
+      @media all and (max-width: 960px){
+        .text-content {
+          columns: 2;
+        }
+      }
+      @media all and (max-width: 640px){
+        .text-content {
+          columns: unset;
+          padding: 0 2rem;
+        }
+      }
       aside {
         position: absolute;
         top: 0;
