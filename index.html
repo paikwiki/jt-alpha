@@ -4,11 +4,11 @@ title: Artworks
 permalink: /
 ---
 
-<article class="posts-wrapper">
+<article class="posts-wrapper artworks-wrapper">
   <header>
     <h1>{{page.title}}</h1>
   </header>
-  <section class="posts-content">
+  <section class="posts-content artworks-content">
     <ul class="posts-list artworks-list">
       {% assign sorted_posts = site.posts 
         | where:"categories","artwork"
