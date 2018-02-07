@@ -1,9 +1,9 @@
 <section class="navigation">
   <nav>
     <ul>
-        {% for item in site.data.navigation.items %}
-          <li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>
-        {% endfor %}
+      {% for item in site.data.navigation.items %}
+        <li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.title }}</a></li>
+      {% endfor %}
     </ul>
   </nav>
 </section>
