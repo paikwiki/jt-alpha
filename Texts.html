@@ -11,9 +11,7 @@ permalink: /texts
   <section class="posts-content texts-content">
     <ul class="posts-list texts-list">
       {% assign sorted_posts = site.posts 
-        | where:"categories","text"
-        | sort:"order"
-        | reverse %}
+        | where:"categories","text"%}
       {% for post in sorted_posts %}
         <li>
           <span class="post-date">{{ post.date | date_to_string }}</span>
