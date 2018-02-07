@@ -7,14 +7,14 @@ layout: default
     <h1>{{page.title}}</h1>
   </header>
   <section class="post-content artwork-content">
-    <section class="post-image artwork-image">
-      {% if page.image %}
+    {% if page.image %}
+      <section class="post-image artwork-image">
         <img src="{{ page.image | prepend:site.baseurl }}" alt="{{ page.title }}">
-      {% endif %}
-      {% if page.caption %}
-        <p>{{ page.caption}}</p>
-      {% endif %}
-    </section>
+        {% if page.caption %}
+          <p>{{ page.caption}}</p>
+        {% endif %}
+      </section>
+    {% endif %}
     {{ content }}
   </section>
   <aside>
