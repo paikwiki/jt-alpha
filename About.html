@@ -4,19 +4,20 @@ title: About
 permalink: /about
 ---
 
-{{ site.data.author.description }}
-
-- <a href="mailto://{{ site.data.author.email }}">{{ site.data.author.email }}</a>
-
-# Exhibitions
-
-{% for exgroup in site.data.author.exhibitions %}
-
-## {{ exgroup.title }}
-
-{% for exitem in exgroup.list %}
-
-- {{ exitem }}
-
-{% endfor %}
-{% endfor %}
+<section class="about-content">
+  <section class="about-info">
+    <p>{{ site.data.author.description }}</p>
+    <p><a href="mailto://{{ site.data.author.email }}">{{ site.data.author.email }}</a></p>
+  </section>
+  <section class="about-exhibitions">
+    <h1>Exhibitions</h1>
+    {% for exgroup in site.data.author.exhibitions %}
+      <h2>{{ exgroup.title }}</h2>
+      <ul>
+        {% for exitem in exgroup.list %}
+          <li>{{ exitem }}</li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
+  </section>
+</section>
