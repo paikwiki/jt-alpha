@@ -19,5 +19,4 @@ permalink: /about
 - {{ exitem }}
 
 {% endfor %}
-
 {% endfor %}
