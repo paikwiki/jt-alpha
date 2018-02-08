@@ -1,8 +1,11 @@
-@font-face {
-  font-family: 'Noto Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Noto Sans'), local('NotoSans'),
-    url('../assets/fonts/noto-sans-v7-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url('../assets/fonts/noto-sans-v7-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+html {
+  font-size: 10pt;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, span, pre, a, blockquote {
+  font-family: 'Noto Sans KR', 'Nanum Barun Gothic', 'Nanum Gothic', 'Malgun Gothic', 'Dotum', sans-serif;
+  color: #333333;
 }
