@@ -106,15 +106,6 @@
         }
       }
     }
-    .page-content {
-      ul {
-        list-style: none;
-        padding-left: 0;
-        li {
-          line-height: 1.4rem;
-        }
-      }
-    }
     .post-wrapper {
       .artwork-content {
         margin-bottom: 4rem;
@@ -154,6 +145,15 @@
         right: 0;
         p {
           margin: 0;
+        }
+      }
+    }
+    .page-content {
+      ul {
+        list-style: none;
+        padding-left: 0;
+        li {
+          line-height: 1.4rem;
         }
       }
     }
