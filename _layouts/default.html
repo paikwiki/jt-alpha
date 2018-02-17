@@ -12,7 +12,9 @@
   <article class="global-wrapper">
     <header class="site-header">
       <h1><a href="{{ '/' | prepend:site.baseurl }}">{{ site.title }}</a></h1>
-      <p class="tagline">{{ site.description }}</p>
+      {% if site.description %}
+        <p class="tagline">{{ site.description }}</p>
+      {% endif %}
       {% include navigation.html %}
     </header>
     <section class="site-content">
