@@ -6,7 +6,9 @@ permalink: /about
 
 <article class="about-wrapper">
   <section class="about-info">
-    <p>{{ site.data.author.description }}</p>
+    {% if site.data.author.description %}
+      <p>{{ site.data.author.description }}</p>
+    {% endif %}
     <p><a href="mailto://{{ site.data.author.email }}">{{ site.data.author.email }}</a></p>
   </section>
   <section class="about-exhibitions">
