@@ -1,4 +1,5 @@
 source "https://rubygems.org"
-gemspec
 
-gem 'github-pages', '~> 172'
+gem 'github-pages', '~> 182'
+gem "jekyll-seo-tag", "~> 2.1"
+gem "jekyll-remote-theme"

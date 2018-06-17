@@ -1,27 +1,6 @@
 ---
-layout: default
+layout: artworks
 title: Artworks
-permalink: /
+item: artwork
+navItemTitle: Artwork
 ---
-
-<article class="posts-wrapper artworks-wrapper">
-  <header>
-    <h1>{{page.title}}</h1>
-  </header>
-  <section class="posts-content artworks-content">
-    <ul class="posts-list artworks-list">
-      {% assign sorted_posts = site.posts 
-        | where:"categories","artwork"
-        | sort:"order"
-        | reverse %}
-      {% for post in sorted_posts %}
-        <li>
-          <a href="{{ post.url | prepend:site.baseurl }}">
-            <div class="thumb-image" style="background-image: url('{{ post.thumb | prepend:site.baseurl }}')">{{ post.title }}</div>
-          </a>
-          <a href="{{ post.url | prepend:site.baseurl }}" class="caption">{{post.title}}</a>
-        </li>
-      {% endfor %}
-    </ul>
-  </section>
-</article>
